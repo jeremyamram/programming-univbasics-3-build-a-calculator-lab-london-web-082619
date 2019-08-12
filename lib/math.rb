@@ -19,7 +19,8 @@ return a
 end
 
 def modulo(num1, num2)
-b = 
+b = num1.divmod(num2)
+return b
 end
 
 def square_root(num)
