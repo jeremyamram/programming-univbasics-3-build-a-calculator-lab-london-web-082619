@@ -19,7 +19,7 @@ return a
 end
 
 def modulo(num1, num2)
-b = num1.divmod(num2)
+b = num1.modulo(num2)
 return b
 end
 
